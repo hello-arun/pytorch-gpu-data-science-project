@@ -30,7 +30,7 @@ directory by running the following commands.
 
 ```bash
 export ENV_PREFIX=$PWD/env
-mamba env create --prefix $ENV_PREFIX --file environment.yml --force
+conda env create --prefix $ENV_PREFIX --file environment.yml --force
 ```
 
 Once the new environment has been created you can activate the environment with the following 
